@@ -1,3 +1,7 @@
+<xsl:call-template name="millisecs-to-ISO">
+    <xsl:with-param name="millisecs" select="1421247632689" />
+</xsl:call-template>
+
 <xsl:template name="millisecs-to-ISO">
     <xsl:param name="millisecs"/>
 
